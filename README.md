@@ -1,3 +1,7 @@
+WARNING: This repository has been superceded by the BSNk software, available at https://wiki.bsn-koppelregister.nl/
+
+-----
+
 ABSTRACT
 This repository contains two projects, the PP-Decrypt library and the PP-Decrypt example package. 
 The goal of these project is to give an example of how the decryption of encrypted identifiers takes 
@@ -34,13 +38,16 @@ ACTKNOWLEDGEMENTS
 Special thanks to:
 
 - Logius (For publication of documentation)
+- Jacob Middag
 - Martijn Kooij
 - Eric Verheul
+- Ewald Wasscher
 
 For making this repository possible.
 
 CONTACT:
-Administration of the repo can be contacted via: bram.vanpelt@tesorion.nl
+Administration of the repo can be contacted via: bram.vanpelt@kpn.com
 
 AFFILIATED PROJECTS:
+
 https://github.com/MartijnKooij/PolymorphicPseudonymisation (Dotnet implementation of this library)
