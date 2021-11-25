@@ -26,8 +26,8 @@ public class EncryptedVerifier {
         this.verificationPoint = verificationPoint;
     }
 
-    public void verify(byte[] payload, Signature signature) {
-        signature.verify(publicKey, verificationPoint, payload);
+    public void verify(byte[] payload, Signature signature, String SchnorrOid) {
+        signature.verify(publicKey, verificationPoint, payload, SchnorrOid);
     }
 
     @Override
