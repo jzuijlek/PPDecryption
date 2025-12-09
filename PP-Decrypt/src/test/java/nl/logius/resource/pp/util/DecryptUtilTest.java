@@ -34,8 +34,8 @@ public class DecryptUtilTest {
 			// ook bouncycastle moet worden geregistreerd als JAVA security provider. Normaal wordt dit op de server gedaan voordat de software wordt gerunned.
 			Security.addProvider(new org.bouncycastle.jce.provider.BouncyCastleProvider());
 			
-			
-			run2();
+			run();
+			//run2();
 			
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -49,6 +49,8 @@ public class DecryptUtilTest {
 		keys.setPseudoKeyLocation("target/test-classes/p7/PD-4.p7");
 		keys.setPseudoClosingKeyLocation("target/test-classes/p7/PC-4.p7");
 		keys.setPrivatep8("target/test-classes/private.p8");
+		keys.setIdentityPoint("AmUppru04ghsI/FvbvV59eoX3lCUWlMAZKu1pPdlvixch5avV+aFwQg=");
+		keys.setPseudonymPoint("A9GtKDUn++nl2NWtN4F/2id1gmBhxn4I6Qr9BfeMN+fjNuXGvE79qHc=");
 		keys.init();
 		
 		//simuleer een EncryptedID (ei) en EncryptedPseudonym (ep)
